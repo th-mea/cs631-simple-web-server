@@ -1,0 +1,4 @@
+*.o
+sws
+core
+*.core
