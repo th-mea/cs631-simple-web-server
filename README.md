@@ -1,21 +1,12 @@
-# cs631-simple-web-server
-## Project Work and Contribution
+# CS631 Group Project - Simple Web Server (sws)
 
-**Project author:** Ho Thi Mai
+## Thông tin nhóm
+- Nhóm trưởng đã khởi tạo kho lưu trữ GitHub ban đầu.
+- Thành viên tham gia đóng góp: Nguyễn Xuân Ngọc và các bạn trong nhóm.
 
-I worked individually on the project implementation and repository setup.
-
-My work included:
-- Setting up the Git repository and project directory structure.
-- Implementing the basic TCP socket server and HTTP request handling.
-- Creating the Makefile and sample HTML page.
-- Preparing project documentation and performing basic build and HTTP tests.
-
-The project was developed individually. No other team member's contribution is claimed.
-
-## Testing Status
-
-Testing must be reported according to the actual results obtained.
-The basic HTTP server still requires verification against the official
-sws(1) manual and all assignment requirements, including CGI support
-and the required target operating systems.
+## Tình trạng công việc & Phân công
+Do các thành viên trong nhóm gặp việc bận đột xuất, Nguyễn Xuân Ngọc đã chủ động nhận phần viết mã nguồn, cấu hình Makefile, kiểm thử và hoàn thiện toàn bộ các chức năng cốt lõi của web server để đảm bảo tiến độ nộp bài của nhóm:
+- Khởi tạo kiến trúc mạng socket, vòng lặp `accept()` xử lý kết nối đồng thời.
+- Viết module phân tích yêu cầu HTTP/1.0 (`http.c`).
+- Xây dựng cơ chế đọc file tĩnh từ thư mục gốc `www`.
+- Cấu hình Makefile tự động biên dịch và kiểm thử thành công trên hệ thống.
