@@ -1,4 +1,6 @@
-*.o
 sws
-core
+src/*.o
 *.core
+core
+*.log
+.DS_Store
